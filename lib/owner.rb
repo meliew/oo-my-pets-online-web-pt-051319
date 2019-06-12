@@ -15,4 +15,8 @@ def self.all
   def self.count
     @@all.length
   end
+
+  def self.reset_all
+    @@all = []
+  end
 end
