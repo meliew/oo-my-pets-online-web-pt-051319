@@ -5,7 +5,7 @@ class Owner
 
   def initialize(name)
     @name = name
-    @species = species
+    @species = "human"
     @@all << self
   end
 
@@ -23,7 +23,7 @@ def self.all
 
   def species
     @species = species
-  end 
+  end
 
 
 end
