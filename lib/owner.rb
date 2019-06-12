@@ -21,9 +21,9 @@ def self.all
     @@all = []
   end
 
-  def species
-    @species = species
-  end
+  # def species
+  #   @species = species
+  # end
 
 
 end
