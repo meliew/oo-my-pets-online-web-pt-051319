@@ -42,4 +42,10 @@ def self.all
   def buy_dog(dog)
     @@pets[:dogs] << Dog.new(dog)
   end
+
+  def walk_dogs(dog)
+    dog.mood = "happy"
+    #changes the dog's mood to happy
+
+  end
 end
