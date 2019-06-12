@@ -2,6 +2,6 @@ class Owner
 @@all = []
 
 def all
-  @@all?
+  @@all
   end
 end
