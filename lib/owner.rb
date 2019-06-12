@@ -71,7 +71,7 @@ def self.all
   end
 
   def list_pets
-    puts "I have #{fish.length} fish, #{dog.length} dog(s), and #{cat.length} cat(s)."
+    puts "I have #{fishes.length} fish, #{dog.length} dog(s), and #{cat.length} cat(s)."
 end
 
 end
