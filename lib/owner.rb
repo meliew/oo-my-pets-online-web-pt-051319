@@ -23,7 +23,7 @@ def self.all
 
   def say_species(species)
     puts "I am a #{species}"
-    
+
   end
 
 
