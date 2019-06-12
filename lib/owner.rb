@@ -34,8 +34,4 @@ def self.all
   def buy_fish(fish)
     @@pets[:fishes] << Fish.new
   end
-
-  end
-
-
 end
