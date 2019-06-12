@@ -69,4 +69,6 @@ def self.all
       animal.clear
     end
   end
+
+  def list_pets
 end
