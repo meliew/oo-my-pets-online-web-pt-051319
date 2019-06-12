@@ -9,6 +9,6 @@ def initialize(name, mood)
 end
 
 def mood
-  @mood = mood
+  @mood= mood
 end
 end
