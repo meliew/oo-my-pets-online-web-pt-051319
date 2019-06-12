@@ -3,7 +3,7 @@ class Owner
   attr_reader :species
   attr_accessor :name, :fishes, :dogs, :cats, :pets
   @@all = []
-  @@pets = {:fishes => [], :dogs => [], :cats => []}
+  @pets = {:fishes => [], :dogs => [], :cats => []}
 
   def initialize(names)
     @name = name
@@ -27,12 +27,12 @@ def self.all
     "I am a #{@species}."
   end
 
-  def pets
-    @@pets
-  end
+  # def pets
+  #   @@pets
+  # end
 
   def buy_fish(fish)
-    @@pets[:fishes] << Fish.new(fish)
+    pets[:fishes] << Fish.new(fish)
   end
 
   def buy_cat(cat)
@@ -71,7 +71,7 @@ def self.all
   end
 
   def list_pets
-      "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."  
+      "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
 
 end
 
