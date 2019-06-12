@@ -44,7 +44,8 @@ def self.all
   end
 
   def walk_dogs
-    dog.mood = "happy"
+    Dog.mood = "happy"
+
     #changes the dog's mood to happy
 
   end
