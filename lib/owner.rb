@@ -62,8 +62,8 @@ def self.all
   end
 
   def sell_pets
-    @@pets.each do |category|
-      category.each do |pet|
+    @@pets.each do |category, animal|
+      animal.each do |pet|
         pet.mood = "nervous"
       end
     end
