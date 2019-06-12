@@ -1,3 +1,4 @@
+require 'pry'
 class Cat
 
   attr_reader :name
@@ -6,6 +7,7 @@ class Cat
 def initialize(name, mood)
   @name = name
   @mood = "nervous"
+  binding.pry
 end
 
 def mood
