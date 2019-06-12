@@ -1,7 +1,7 @@
 class Owner
 @@all = []
 
-def all
+def self.all
   @@all
   end
 end
