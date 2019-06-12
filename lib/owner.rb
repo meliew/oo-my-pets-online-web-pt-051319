@@ -31,7 +31,7 @@ def self.all
     @@pets
   end
 
-  def buy_fish(fish, mood)
-    @@pets[:fishes] << Fish.new
+  def buy_fish(fish)
+    @@pets[:fishes] << Fish.new(fish)
   end
 end
