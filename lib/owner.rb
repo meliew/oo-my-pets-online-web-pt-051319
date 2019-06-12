@@ -66,6 +66,7 @@ def self.all
       animal.each do |pet|
         pet.mood = "nervous"
       end
+      animal.clear
     end
   end
 end
