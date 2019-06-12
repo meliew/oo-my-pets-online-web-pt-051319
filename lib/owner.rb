@@ -26,5 +26,8 @@ def self.all
     "I am a #{@species}."
   end
 
+  def pets(hash)
+    pets = {:fishes => [], :dogs => [], :cats => []}
+
 
 end
