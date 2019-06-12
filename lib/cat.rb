@@ -8,7 +8,4 @@ def initialize(name, mood= "nervous")
   @mood = mood
 end
 
-def mood
-  @mood= mood
-end
 end
