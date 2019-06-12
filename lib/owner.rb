@@ -5,7 +5,7 @@ class Owner
 
   def initialize(names)
     @name = name
-    @species = "uhuman"
+    @species = "human"
     @@all << self
   end
 
