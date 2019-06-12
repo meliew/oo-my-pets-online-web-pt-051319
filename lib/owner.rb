@@ -21,9 +21,10 @@ def self.all
     @@all = []
   end
 
-  # def species
-  #   @species = species
-  # end
+  def say_species(species)
+    puts "I am a #{species}"
+    
+  end
 
 
 end
