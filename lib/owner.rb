@@ -27,7 +27,8 @@ def self.all
     "I am a #{@species}."
   end
 
-  def pets(hash)
+  def pets
+    @@pets
   end
 
 
