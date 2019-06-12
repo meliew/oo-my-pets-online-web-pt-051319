@@ -7,7 +7,6 @@ class Cat
 def initialize(name, mood)
   @name = name
   @mood = "nervous"
-  binding.pry
 end
 
 def mood
