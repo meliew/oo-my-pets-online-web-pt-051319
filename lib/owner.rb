@@ -75,7 +75,7 @@ def self.all
     total_dogs = @@pets[:dogs].length
     total_fish = @@pets[:fish].length
 
-    puts " I have #{total_fish} fish, #{total_dogs} dog(s), amd #{total_cats} cat(s)."
+    return "I have #{total_fish} fish, #{total_dogs} dog(s), amd #{total_cats} cat(s)."
 end
 
 end
