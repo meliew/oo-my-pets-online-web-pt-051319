@@ -43,7 +43,7 @@ def self.all
     @@pets[:dogs] << Dog.new(dog)
   end
 
-  def walk_dogs(dog)
+  def walk_dogs
     dog.mood = "happy"
     #changes the dog's mood to happy
 
