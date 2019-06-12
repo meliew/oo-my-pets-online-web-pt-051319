@@ -71,7 +71,11 @@ def self.all
   end
 
   def list_pets
-    puts "I have #{fishes.length} fish, #{dog.length} dog(s), and #{cat.length} cat(s)."
+    total_cats = @@pets[:cats].size
+    total_dogs = @@pets[:dogs].size
+    total_fish = @@pets[:fish].size
+
+    puts " I have #{total_fish} fish, #{total_dogs} dog(s), amd #{total_cats} cat(s)."
 end
 
 end
