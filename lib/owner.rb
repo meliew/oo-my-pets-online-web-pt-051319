@@ -44,9 +44,8 @@ def self.all
   end
 
   def walk_dogs
-    owner.pets[:dogs].mood = "happy"
-
-    #changes the dog's mood to happy
-
+    @@pets[:dogs].each do |dog|
+      dog.mood = "happy"
+    end
   end
 end
