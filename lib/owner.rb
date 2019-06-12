@@ -1,7 +1,7 @@
 class Owner
 
   attr_reader :species
-  attr_accessor :name, :fishes, :dogs, :cats
+  attr_accessor :name, :fishes, :dogs, :cats, :pets
   @@all = []
   @@pets = {:fishes => [], :dogs => [], :cats => []}
 
