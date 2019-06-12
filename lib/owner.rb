@@ -11,9 +11,9 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
     @@all << self
   end
-
-def self.all
-  @@all
+  
+  def self.all
+    @@all
   end
 
   def self.count
@@ -41,7 +41,7 @@ def self.all
   end
 
   def buy_dog(dog)
-  pets[:dogs] << Dog.new(dog)
+    pets[:dogs] << Dog.new(dog)
   end
 
   def walk_dogs
@@ -57,13 +57,13 @@ def self.all
   end
 
   def feed_fish
-  pets[:fishes].each do |fish|
+    pets[:fishes].each do |fish|
       fish.mood = "happy"
     end
   end
 
   def sell_pets
-  pets.each do |category, animal|
+    pets.each do |category, animal|
       animal.map do |pet|
         pet.mood = "nervous"
       end
@@ -72,8 +72,8 @@ def self.all
   end
 
   def list_pets
-      "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
+    "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
 
-end
+  end
 
 end
